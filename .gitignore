@@ -1,1 +1,6 @@
+# taken from https://github.com/github/gitignore/blob/main/community/Golang/Hugo.gitignore
 .hugo_build.lock
+hugo_stats.json
+/public/
+/resources/_gen/
+/assets/jsconfig.json
