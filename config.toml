@@ -1,7 +1,6 @@
 baseURL = 'https://slush.systems/'
 languageCode = 'en-us'
 title = 'slush.systems'
-theme = 'terminal'
 paginate = 20
 
 [module]
