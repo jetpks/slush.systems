@@ -1,6 +1,7 @@
 baseURL = 'https://slush.systems/'
 languageCode = 'en-us'
 title = 'slush.systems'
+theme = 'terminal'
 paginate = 20
 
 [params]
@@ -85,8 +86,4 @@ paginate = 20
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
-
-[module]
-[[module.imports]]
-  path = 'github.com/jetpks/hugo-theme-terminal'
 
