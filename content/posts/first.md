@@ -1,5 +1,4 @@
 +++
-title = "First"
 date = "2023-02-26T11:14:34-07:00"
 author = "Eric Jacobs"
 cover = ""
@@ -10,9 +9,10 @@ showFullContent = false
 readingTime = false
 hideComments = false
 color = "" #color from the theme settings
+title = "Title title title testing"
 +++
 
-# Testing
+Now this is a post all about how my blog got flipped turned up side down.
 
 ```ruby
 Testing::Module.foo do |param|
