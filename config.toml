@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'slush.systems'
 theme = 'terminal'
 paginate = 20
+enableGitInfo = true
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -32,7 +33,6 @@ paginate = 20
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
   showLastUpdated = false
-  enableGitInfo = true
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
@@ -49,11 +49,14 @@ paginate = 20
 
   # whether to show a table of contents (default: false)
   # can be overridden in a page's front-matter
-  Toc = true
+  Toc = false
 
   # set title for the table of contents (default: Table of Contents)
   # can be overridden in a page's front-matter
   TocTitle = "table of contents"
+
+  # The GitInfo.Hash is appended to create a link to the commit on github
+  githubCommitUrlPrefix = "https://github.com/jetpks/slush.systems/commit/"
 
 [languages]
   [languages.en]
