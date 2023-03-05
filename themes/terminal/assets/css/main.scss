@@ -205,31 +205,6 @@ blockquote {
     left: -25px;
     color: $accent;
   }
-
-  &.twitter-tweet {
-    position: relative;
-    background: transparentize($accent, .9);
-    font: inherit;
-    color: inherit;
-    border: 1px solid $accent;
-    padding-top: 60px;
-
-    p:before {
-      content: '';
-    }
-
-    &:before {
-      content: '> From Twitter:';
-      position: absolute;
-      top: 20px;
-      color: $accent;
-      font-weight: bold;
-    }
-
-    a {
-      color: $accent;
-    }
-  }
 }
 
 table {
