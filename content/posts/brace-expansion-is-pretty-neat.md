@@ -5,7 +5,7 @@ author = "Eric Jacobs"
 cover = ""
 tags = ["fish", "shell", "tooling"]
 keywords = []
-description = ""
+description = "Exploring the magic of brace expansion in the shell."
 showFullContent = false
 color = "" #color from the theme settings
 +++
@@ -124,7 +124,7 @@ hey it's a font:  CartographCF-DemiBoldItalic.woff2
 ### Brace expansion
 
 Brace expansion works a little bit like a `for each` loop. For each item inside
-the brackets, you get a parameters with the item in place of the brackets. For
+the brackets, you get a parameter with the item in place of the braces. For
 example,
 
 ```fish
