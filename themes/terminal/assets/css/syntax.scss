@@ -1,10 +1,18 @@
+.highlight {
+        background-color: $dark_background;
+        padding: 0 10px;
+        border-radius: 2px
+}
 .bg {
 	color: #f8f8f2;
-	background-color: #282a36;
+	background-color: $dark_background;
 }
 .chroma {
+        code {
+                white-space: pre-wrap;
+        }
 	color: #f8f8f2;
-	background-color: #282a36;
+	background-color: $dark_background;
 	.x {
 	}
 	.err {
@@ -32,14 +40,14 @@
 		background-color: $current_line;
 	}
 	.lnt {
-		white-space: pre;
+		white-space: pre-wrap;
 		user-select: none;
 		margin-right: 0.4em;
 		padding: 0 0.4em 0 0.4em;
 		color: #7f7f7f;
 	}
 	.ln {
-		white-space: pre;
+		white-space: pre-wrap;
 		user-select: none;
 		margin-right: 0.4em;
 		padding: 0 0.4em 0 0.4em;
