@@ -1,15 +1,43 @@
 @font-face {
   font-display: swap;
-  font-family: 'Fira Code';
+  font-family: 'Cartograph';
   font-style:  normal;
-  font-weight: 400;
-  src: url("../fonts/FiraCode-Regular.woff") format("woff");
+  font-weight: normal;
+  src: url("../fonts/CartographCF-DemiBold.woff2") format("woff2");
+  font-feature-settings: "ss02";
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Fira Code';
+  font-family: 'Cartograph';
+  font-style:  italic;
+  font-weight: normal;
+  src: url("../fonts/CartographCF-DemiBoldItalic.woff2") format("woff2");
+  font-feature-settings: "ss02";
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Cartograph';
   font-style:  normal;
-  font-weight: 800;
-  src: url("../fonts/FiraCode-Bold.woff") format("woff");
+  font-weight: 700;
+  src: url("../fonts/CartographCF-Heavy.woff2") format("woff2");
+  font-feature-settings: "ss02";
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Cartograph';
+  font-style:  italic;
+  font-weight: 700;
+  src: url("../fonts/CartographCF-HeavyItalic.woff2") format("woff2");
+  font-feature-settings: "ss02";
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
 }

@@ -5,4 +5,10 @@
   background: $accent;
   color: black;
   padding: 5px 10px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 2rem;
+  font-feature-settings: "ss02";
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
 }
