@@ -66,7 +66,7 @@ expansion](https://fishshell.com/docs/current/language.html#parameter-expansion)
 
 Even if you're not famliar with brace expansion (e.g. `{,Italic}`,) you're
 probably famliar with globbing (e.g. `*woff`.) Both of these are **parameter
-expnasion**. Your shell (bash, fish, zsh, etc) is expanding those patterns into
+expansion**. Your shell (bash, fish, zsh, etc) is expanding those patterns into
 parameters before executing your command.
 
 This works the same way anywhere in your shell:
