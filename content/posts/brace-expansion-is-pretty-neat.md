@@ -123,7 +123,9 @@ CartographCF-ExtraLight.woff		 CartographCF-ExtraBold.woff
 
 ```
 
-We get all the types Light, Bold, etc, both bare and with Italic, and then woff
-& woff2.
+We get all the types Light, Bold, etc from
+`{ExtraLight,ExtraBold,Light,Bold,Regular,Thin}`. Then, we get both bare and
+with Italic with `{,Italic}`. Finally, we get the woff and woff2 file extensions
+with `woff{,2}`.
 
 Brace expansion is *pretty neat*.
