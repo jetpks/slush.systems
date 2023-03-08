@@ -6,15 +6,15 @@
     }
 }
 
-http://slushsystems.fly.dev {
+http://slushsystems.fly.dev:8080 {
     root * /usr/share/caddy
     file_server
 }
 
 :9091 {
+    respond /healthz 200
+    metrics /metrics
     log {
         output discard
     }
-
-    metrics /metrics
 }
