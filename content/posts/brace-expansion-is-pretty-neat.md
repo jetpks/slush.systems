@@ -18,39 +18,23 @@ For the web, it's packaged as 32 separate files:
 
 ```fish
 ~/Downloads/Cartograph CF                          12ms eric@nonagon 20:03:33
-❯ ll
-total 3.0M
--rw-r--r-- 1 eric eric 118K Mar  3 14:16 CartographCF-BoldItalic.woff
--rw-r--r-- 1 eric eric  84K Mar  3 14:16 CartographCF-BoldItalic.woff2
--rw-r--r-- 1 eric eric 107K Mar  3 14:16 CartographCF-Bold.woff
--rw-r--r-- 1 eric eric  77K Mar  3 14:16 CartographCF-Bold.woff2
--rw-r--r-- 1 eric eric 120K Mar  3 14:16 CartographCF-DemiBoldItalic.woff
--rw-r--r-- 1 eric eric  86K Mar  3 14:16 CartographCF-DemiBoldItalic.woff2
--rw-r--r-- 1 eric eric 107K Mar  3 14:16 CartographCF-DemiBold.woff
--rw-r--r-- 1 eric eric  77K Mar  3 14:16 CartographCF-DemiBold.woff2
--rw-r--r-- 1 eric eric 119K Mar  3 14:16 CartographCF-ExtraBoldItalic.woff
--rw-r--r-- 1 eric eric  85K Mar  3 14:16 CartographCF-ExtraBoldItalic.woff2
--rw-r--r-- 1 eric eric 106K Mar  3 14:16 CartographCF-ExtraBold.woff
--rw-r--r-- 1 eric eric  77K Mar  3 14:16 CartographCF-ExtraBold.woff2
--rw-r--r-- 1 eric eric 116K Mar  3 14:16 CartographCF-ExtraLightItalic.woff
--rw-r--r-- 1 eric eric  84K Mar  3 14:16 CartographCF-ExtraLightItalic.woff2
--rw-r--r-- 1 eric eric 105K Mar  3 14:16 CartographCF-ExtraLight.woff
--rw-r--r-- 1 eric eric  76K Mar  3 14:16 CartographCF-ExtraLight.woff2
--rw-r--r-- 1 eric eric 122K Mar  3 14:16 CartographCF-HeavyItalic.woff
--rw-r--r-- 1 eric eric  88K Mar  3 14:16 CartographCF-HeavyItalic.woff2
--rw-r--r-- 1 eric eric 110K Mar  3 14:16 CartographCF-Heavy.woff
--rw-r--r-- 1 eric eric 115K Mar  3 14:16 CartographCF-LightItalic.woff
--rw-r--r-- 1 eric eric  82K Mar  3 14:16 CartographCF-LightItalic.woff2
--rw-r--r-- 1 eric eric 105K Mar  3 14:16 CartographCF-Light.woff
--rw-r--r-- 1 eric eric  76K Mar  3 14:16 CartographCF-Light.woff2
--rw-r--r-- 1 eric eric 116K Mar  3 14:16 CartographCF-RegularItalic.woff
--rw-r--r-- 1 eric eric  83K Mar  3 14:16 CartographCF-RegularItalic.woff2
--rw-r--r-- 1 eric eric 105K Mar  3 14:16 CartographCF-Regular.woff
--rw-r--r-- 1 eric eric  75K Mar  3 14:16 CartographCF-Regular.woff2
--rw-r--r-- 1 eric eric 115K Mar  3 14:16 CartographCF-ThinItalic.woff
--rw-r--r-- 1 eric eric  82K Mar  3 14:16 CartographCF-ThinItalic.woff2
--rw-r--r-- 1 eric eric 104K Mar  3 14:16 CartographCF-Thin.woff
--rw-r--r-- 1 eric eric  75K Mar  3 14:16 CartographCF-Thin.woff2
+❯ ls
+CartographCF-BoldItalic.woff         CartographCF-HeavyItalic.woff
+CartographCF-BoldItalic.woff2        CartographCF-HeavyItalic.woff2
+CartographCF-Bold.woff               CartographCF-Heavy.woff
+CartographCF-Bold.woff2              CartographCF-Heavy.woff2
+CartographCF-DemiBoldItalic.woff     CartographCF-LightItalic.woff
+CartographCF-DemiBoldItalic.woff2    CartographCF-LightItalic.woff2
+CartographCF-DemiBold.woff           CartographCF-Light.woff
+CartographCF-DemiBold.woff2          CartographCF-Light.woff2
+CartographCF-ExtraBoldItalic.woff    CartographCF-RegularItalic.woff
+CartographCF-ExtraBoldItalic.woff2   CartographCF-RegularItalic.woff2
+CartographCF-ExtraBold.woff          CartographCF-Regular.woff
+CartographCF-ExtraBold.woff2         CartographCF-Regular.woff2
+CartographCF-ExtraLightItalic.woff   CartographCF-ThinItalic.woff
+CartographCF-ExtraLightItalic.woff2  CartographCF-ThinItalic.woff2
+CartographCF-ExtraLight.woff         CartographCF-Thin.woff
+CartographCF-ExtraLight.woff2        CartographCF-Thin.woff2
 ```
 
 Since this is a paid font, I already feel weird about uploading it to a public
@@ -63,33 +47,13 @@ I need to `rm` the rest.
 ~/Downloads/Cartograph CF                          11ms eric@nonagon 20:11:17
 ❯ rm CartographCF-{ExtraLight,ExtraBold,Light,Bold,Regular,Thin}{,Italic}.woff{,2}
 
-~/Downloads/Cartograph CF                           7ms eric@nonagon 20:11:28
-❯ ll
-total 720K
--rw-r--r-- 1 eric eric 120K Mar  3 14:16 CartographCF-DemiBoldItalic.woff
--rw-r--r-- 1 eric eric  86K Mar  3 14:16 CartographCF-DemiBoldItalic.woff2
--rw-r--r-- 1 eric eric 107K Mar  3 14:16 CartographCF-DemiBold.woff
--rw-r--r-- 1 eric eric  77K Mar  3 14:16 CartographCF-DemiBold.woff2
--rw-r--r-- 1 eric eric 122K Mar  3 14:16 CartographCF-HeavyItalic.woff
--rw-r--r-- 1 eric eric  88K Mar  3 14:16 CartographCF-HeavyItalic.woff2
--rw-r--r-- 1 eric eric 110K Mar  3 14:16 CartographCF-Heavy.woff
--rw-r--r-- 1 eric eric  79K Mar  3 14:16 CartographCF-Heavy.woff2
-
-```
-
-Nice. I'm also just using the woff2 variants, so...
-
-```fish
-~/Downloads/Cartograph CF                          10ms eric@nonagon 20:22:20
+~/Downloads/Cartograph CF                           7ms eric@nonagon 20:11:22
 ❯ rm *woff
 
-~/Downloads/Cartograph CF                           4ms eric@nonagon 20:22:27
-❯ ll
-total 336K
--rw-r--r-- 1 eric eric 86K Mar  3 14:16 CartographCF-DemiBoldItalic.woff2
--rw-r--r-- 1 eric eric 77K Mar  3 14:16 CartographCF-DemiBold.woff2
--rw-r--r-- 1 eric eric 88K Mar  3 14:16 CartographCF-HeavyItalic.woff2
--rw-r--r-- 1 eric eric 79K Mar  3 14:16 CartographCF-Heavy.woff2
+~/Downloads/Cartograph CF                           4ms eric@nonagon 20:11:28
+❯ ls
+CartographCF-DemiBoldItalic.woff2  CartographCF-HeavyItalic.woff2
+CartographCF-DemiBold.woff2        CartographCF-Heavy.woff2
 ```
 
 Bam. Nice. But how did
