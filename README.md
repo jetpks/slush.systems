@@ -2,6 +2,10 @@
 
 TODO -
 - deployment
+  - github actions deployment
+    - eventually would like PRs to deploy to a dev version of the site (maybe on
+      a subdomain?)
+    - and merges to main should deploy main
   - slush.systems domain (w/ www)
   - multi-region on fly.io
 
