@@ -1,4 +1,5 @@
-baseURL = 'https://slush.systems/'
+# baseURL = 'https://slush.systems/'
+baseURL = 'https://slushsystems.fly.dev/'
 languageCode = 'en-us'
 title = 'slush.systems'
 theme = 'terminal'
