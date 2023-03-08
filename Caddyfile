@@ -1,0 +1,20 @@
+{
+    auto_https off
+    admin off
+    servers {
+        metrics
+    }
+}
+
+http://slushsystems.fly.dev {
+    root * /usr/share/caddy
+    file_server
+}
+
+:9091 {
+    log {
+        output discard
+    }
+
+    metrics /metrics
+}
