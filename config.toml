@@ -106,3 +106,10 @@ enableGitInfo = true
     noHl = false
     style = 'dracula'
     tabWidth = 4
+
+[security]
+  enableInlineShortcodes = false
+
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^nvim$']
+
