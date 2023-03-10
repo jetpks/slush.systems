@@ -1,20 +1,20 @@
 {
-    auto_https off
-    admin off
-    servers {
-        metrics
-    }
+	auto_https off
+	admin off
+	servers {
+		metrics
+	}
 }
 
 http://slushsystems.fly.dev:8080 {
-    root * /usr/share/caddy
-    file_server
+	root * /usr/share/caddy
+	file_server
 }
 
 :9091 {
-    respond /healthz 200
-    metrics /metrics
-    log {
-        output discard
-    }
+	respond /healthz 200
+	metrics /metrics
+	log {
+		output discard
+	}
 }
