@@ -104,7 +104,7 @@ enableGitInfo = true
     lineNumbersInTable = false
     noClasses = false
     noHl = false
-    style = 'dracula'
+    # style = 'dracula'
     tabWidth = 4
 
 [security]
