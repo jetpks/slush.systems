@@ -8,6 +8,7 @@ keywords: []
 description: >-
     Neovim syntax highlighting for yaml & toml frontmatter in markdown files
 showFullContent: false
+draft: true
 ---
 
 I love syntax highlighting. I don't like working without it. With Hugo, 
