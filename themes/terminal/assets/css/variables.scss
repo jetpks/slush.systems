@@ -1,17 +1,24 @@
 /* COLOR VARIABLES */
-$background: #282a36;
-$dark_background: #181a26;
-$current_line: #44475a;
-$color: #f8f8f2;
-$comment: #6272a4;
-$cyan: #8be9fd;
-$green: #50fa7b;
-$orange: #ffb86c;
-$pink: #ff79c6;
-$purple: #bd93f9;
-$red: #ff5555;
-$yellow: #f1fa8c;
+$background: #1d1f21; //tomorrow-night background 
+$dark_background: #111213; // tomorrow-night dark background
+// $dark_background: #050606; // tomorrow-night darker background
+$current_line: #282a2e; //line 
+$color: #c5c8c6; // tomorrow-night foreground
+$comment: #969896; //tomorrow-night comment 
+$window: #4d5057; //tomorrow-night window
+$highlight: #ffffcc; // highlight
+// $selection: #373b41; //tomorrow-night selection 
 $border-color: rgba(255, 255, 255, .1);
+
+$aqua: #8abeb7; //tomorrow-night aqua 
+$blue: #81a2be; //tomorrow-night blue
+$green: #b5bd68; //tomorrow-night green 
+$orange: #de935f; //tomorrow-night orange 
+$purple: #b294bb; //tomorrow-night purple 
+$red: #cc6666; //tomorrow-night red 
+$yellow: #f0c674; //tomorrow-night yellow 
+
+
 
 /* MEDIA QUERIES */
 $phone: "max-width: 684px";

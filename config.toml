@@ -11,8 +11,8 @@ enableGitInfo = true
   # the list of set content will show up on your index page (baseurl).
   #contentTypeName = "content/posts"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "pink"
+  # aqua blue cyan green lilac orange pink purple red yellow
+  themeColor = "yellow"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
