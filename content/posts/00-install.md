@@ -10,6 +10,7 @@ readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 title = "Install"
+draft = true
 +++
 
 Welcome welcome welcome. Today we're installing Arch Linux on a 14" Thinkpad X1

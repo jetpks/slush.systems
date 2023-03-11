@@ -10,6 +10,7 @@ readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 title = "Title title title testing"
+draft = true
 +++
 
 Now this is a post all about how my blog got flipped turned up side down.
