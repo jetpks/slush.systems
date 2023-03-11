@@ -12,11 +12,5 @@
   </div>
 </footer>
 
-{{ $menu := resources.Get "js/menu.js" | js.Build }}
-
-{{ $bundle := slice $menu | resources.Concat "bundle.js" | resources.Minify }}
-
-<script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
-
 <!-- Extended footer section-->
 {{ partial "extended_footer.html" . }}
