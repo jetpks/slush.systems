@@ -63,13 +63,16 @@ a.read-more,
 a.read-more:hover,
 a.read-more:active {
   display: inline-flex;
-  border: none;
+  border: 2px solid;
   color: $accent;
   background: none;
   box-shadow: none;
-  padding: 0;
-  margin: 20px 0;
+  padding: 10px 20px 12px 20px;
+  margin: 0 0 25px 0;
   max-width: 100%;
+  font-size: 1.2rem;
+  font-style: italic;
+  border-radius: 2px;
 }
 
 .code-toolbar {
