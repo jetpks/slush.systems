@@ -1,20 +1,40 @@
 <div class="post-meta">
-  <div class="post-commit-hash">commit <a href="{{ .Site.Params.githubCommitUrlPrefix }}{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a></div>
-  <div class="post-author">author {{ .GitInfo.AuthorName }}</div>
-  <div class="post-date">
-    <time class="post-date">
-      updated {{ .GitInfo.AuthorDate.Format "2006-01-02T15:04:05Z07:00" }}
-    </time>
-  </div>
-  {{ if .Params.tags }}
-    <span class="post-tags">
-      {{ range .Params.tags }}
-      #<a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">{{ . }}</a>&nbsp;
-      {{ end }}
-    </span>
-  {{ end }}
+  <table>
+    <tr>
+      <td>commit</td>
+      <td>
+        <a href="{{ .Site.Params.githubCommitUrlPrefix }}{{ .GitInfo.Hash }}">
+          {{ .GitInfo.AbbreviatedHash }}
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>author</td>
+      <td>{{ lower .GitInfo.AuthorName }}</td>
+    </tr>
+    <tr>
+      <td>updated</td>
+      <td>
+        <time class="post-date">
+          {{ .GitInfo.AuthorDate.Format "2006-01-02T15:04:05Z07:00" }}
+        </time>
+      </td>
+    </tr>
+    {{ if .Params.tags }}
+    <tr>
+      <td>tags</td>
+      <td>
+        <span class="post-tags">
+          {{ range .Params.tags }}
+          <a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{ . }}</a>&nbsp;
+          {{ end }}
+        </span>
+      </td>
+    </tr>
+    {{ end }}
+  </table>
 </div>
-<div class="tldr post-content">
+<div class="post-tldr">
   {{ "_tl;dr:_" | markdownify }}
   {{ if .Params.showFullContent }}
     {{ .Content }}

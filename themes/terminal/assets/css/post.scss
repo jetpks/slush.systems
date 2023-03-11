@@ -32,7 +32,7 @@
   &-meta {
     font-size: 1rem;
     margin-bottom: 10px;
-    color: transparentize($accent, .3);
+    color: transparentize($accent, .2);
   }
 
   &-title {
@@ -44,7 +44,6 @@
 
   &-tags {
     display: block;
-    margin-bottom: 20px;
     font-size: 1rem;
   }
 
@@ -58,6 +57,10 @@
       padding: 10px;
       border-width: 10px;
     }
+  }
+
+  &-tldr {
+    margin: 20px 0;
   }
 
   ul {
