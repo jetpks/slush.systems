@@ -15,7 +15,6 @@ processes = []
   path = "/metrics"
 
 [[services]]
-  http_checks = []
   internal_port = 8080
   processes = ["app"]
   protocol = "tcp"
@@ -39,3 +38,12 @@ processes = []
     interval = "15s"
     restart_limit = 0
     timeout = "2s"
+
+  [[services.http_checks]]
+    interval = "15s"
+    grace_period = "1s"
+    method = "get"
+    path = "/healthz"
+    protocol = "http"
+    timeout = "2s"
+    restart_limit = 0
