@@ -16,19 +16,7 @@
 
     {{ range $paginator.Pages }}
       <article class="post on-list">
-        <h1 class="post-title">
-          <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-        </h1>
-
-        {{ partial "post_meta.html" . }}
-
-        {{ partial "cover.html" . }}
-
-        {{ if not .Params.showFullContent }}
-          <div>
-            <a class="read-more button" href="{{.RelPermalink}}">read me -&gt;</a>
-          </div>
-        {{ end }}
+        {{ partial "post_preview.html" . }}
       </article>
     {{ end }}
 
