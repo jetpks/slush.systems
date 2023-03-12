@@ -1,6 +1,7 @@
 # slush.systems
 
 TODO -
+- code fonts arent working on iOS
 - properly colored favicons -- most are missing, others are the old colors &
   clash
 - where the hell are the extra spaces around the tags coming from in post-meta?
