@@ -11,20 +11,15 @@ showFullContent: false
 color: "" #color from the theme settings
 ---
 
-[Slush.systems](https://slush.systems/) is a blog about Site Reliability
-Engineering, web development, and running Arch Linux. It is authored by Eric
-Jacobs.
+[Slush.systems](https://slush.systems/) is a blog that's mostly about building
+this blog. It's also about running Arch Linux on a Thinkpad X1 Yoga, and using
+time series metrics. It is authored by Eric Jacobs.
 
-This site is built with [Hugo](https://gohugo.io/), served by
-[Caddy](https://caddyserver.com/), and hosted at [Fly.io](https://fly.io/).
+This is the [/about]({{< ref "/about" >}}) section. Articles here are about
+building this blog. The big list below is sorted by last modified time, but
+some noteable entries are:
 
-The theme is a heavily modified version of [panr's](https://github.com/panr/)
-[hugo-terminal-theme](https://github.com/panr/hugo-theme-terminal). The color
-scheme is [tomorrow-night](https://github.com/chriskempson/tomorrow-theme).
+- [Technology credits]({{< relref "technology-credits" >}}) -- Technologies used
+  to build this site
+- [Organization]({{< relref "organization" >}}) -- How content is organized
 
-The font is [Cartograph](https://connary.com/cartograph.html) by [Connary
-Fagen](https://connary.com/index.html). I love this font. Please purchase a
-license from Connary Fagen if you wish to use it.
-
-You can find the sources for this blog including the theme at
-[github.com/jetpks/slush.systems](https://github.com/jetpks/slush.systems).
