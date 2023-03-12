@@ -8,7 +8,8 @@ keywords: []
 description: >-
   This blog is coming to you live from servers in California, Virginia, and
   Paris. Your requests are automatically routed to whichever datacenter is
-  closer to you in order to get you these pages as fast as possible.
+  closer to you in order to get you these pages as fast as possible. Here's how
+  it's done.
 showFullContent: false
 color: "" #color from the theme settings
 ---
@@ -133,11 +134,10 @@ This site is just a pile of HTML & CSS files and doesn't have a database, so no
 worries for me.
 
 In general though, deploying a multi-region application gets more complicated
-when there's a database involved. [Fly has a managed postgres
-product](https://fly.io/blog/globally-distributed-postgres/) to help with this,
-too.
+when there's a database involved. Luckily, [Fly has a managed postgres
+product](https://fly.io/blog/globally-distributed-postgres/) to help with this.
 
-But even with that managed postgres product, there's still some engineering
-effort involved to make everything function. It depends on the use case, of
-course, but IMO the investment is usually worth it.
+Even with globally managed postgres, there's still some engineering effort
+involved to make everything function. If you have geographically distributed
+users (even if it's just across the US,) the investment is usually worth it.
 

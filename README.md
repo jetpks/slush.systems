@@ -1,8 +1,10 @@
 # slush.systems
 
 TODO -
-- where the hell are the extra spaces around the tags coming from?
-- deployment
+- properly colored favicons -- most are missing, others are the old colors &
+  clash
+- where the hell are the extra spaces around the tags coming from in post-meta?
+- ci/cd
   - github actions deployment
     - eventually would like PRs to deploy to a dev version of the site (maybe on
       a subdomain?)
