@@ -21,25 +21,20 @@
       </td>
     </tr>
     <tr>
-      <td>section</td>
-      <td>
-        {{ with .Section}}
-        <a href="{{ (urlize (printf "/%s" .)) | absLangURL }}">/{{ . }}</a>
-        {{ end }}
-      </td>
-    </tr>
-    {{ if .Params.tags }}
-    <tr>
-      <td>tags</td>
+      <td>meta</td>
       <td>
         <span class="post-tags">
-          {{ range .Params.tags }}
-          <a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{ . }}</a>&nbsp;
+          {{ with .Section }}
+            <a href="{{ (urlize (printf "/%s" .)) | absLangURL }}">/{{ . }}</a>&emsp;—&nbsp;
+          {{ end }}
+          {{ if .Params.tags }}
+            {{ range .Params.tags }}
+            <a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{ . }}</a>&nbsp;
+            {{ end }}
           {{ end }}
         </span>
       </td>
     </tr>
-    {{ end }}
   </table>
 </div>
 <div class="post-tldr">
