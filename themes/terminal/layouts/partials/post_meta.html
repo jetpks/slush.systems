@@ -20,6 +20,14 @@
         </time>
       </td>
     </tr>
+    <tr>
+      <td>section</td>
+      <td>
+        {{ with .Section}}
+        <a href="{{ (urlize (printf "/%s" .)) | absLangURL }}">/{{ . }}</a>
+        {{ end }}
+      </td>
+    </tr>
     {{ if .Params.tags }}
     <tr>
       <td>tags</td>
