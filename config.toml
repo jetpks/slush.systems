@@ -59,6 +59,9 @@ enableGitInfo = true
   # The GitInfo.Hash is appended to create a link to the commit on github
   githubCommitUrlPrefix = "https://github.com/jetpks/slush.systems/commit/"
 
+  # author; we get this from gitinfo, so a blank string is fine here
+  author = ""
+
 [languages]
   [languages.en]
     languageName = "English"
@@ -84,12 +87,12 @@ enableGitInfo = true
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "/about"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+      # [[languages.en.menu.main]]
+      #   identifier = "showcase"
+      #   name = "Showcase"
+      #   url = "/showcase"
 
 [markup]
   [markup.highlight]
