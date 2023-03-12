@@ -120,13 +120,16 @@ Count changed to 3
 
 Yes you can but not as easily nor as cheaply. AWS sells anycast under the name
 AWS Global Accelerator. It's $0.025/hr per region plus some for data transfer.
-That shakes out to about $18/month/region plus data transfer. Additionally,
-you'd need to setup all the normal AWS infrastructure (iam, vpc, ecs, etc) in
-each region you want to service.
+That shakes out to about $18/month/region plus data transfer. So, not cheap.
+
+Additionally, you'd need to setup all the normal AWS infrastructure (iam, vpc,
+ecs, whatever you use) in each region you want to service. Deployments are also
+up to you to implement. Having done this once or twice before, deploying
+something to multiple AWS regions usually takes some engineering work.
 
 For most businesses, those costs are well worth it. But for my
-non-revenue-generating hobby blog, I'm grateful this can be done for free on
-[Fly.io](https://fly.io/).
+non-revenue-generating hobby blog, I'm grateful this can be done easily and for
+free on [Fly.io](https://fly.io/).
 
 ## What about the database?
 
