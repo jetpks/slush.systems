@@ -6,7 +6,7 @@
 	}
 }
 
-http://slushsystems.fly.dev:8080 {
+http://slush.systems:8080 {
 	root * /usr/share/caddy
 	file_server
 }
