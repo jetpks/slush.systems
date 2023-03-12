@@ -25,9 +25,10 @@
       <td>
         <span class="post-tags">
           {{ with .Section }}
-            <a href="{{ (urlize (printf "/%s" .)) | absLangURL }}">/{{ . }}</a>&emsp;—&nbsp;
+            <a href="{{ (urlize (printf "/%s" .)) | absLangURL }}">/{{ . }}</a>
           {{ end }}
           {{ if .Params.tags }}
+            &ensp;—&nbsp;
             {{ range .Params.tags }}
             <a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{ . }}</a>&nbsp;
             {{ end }}
