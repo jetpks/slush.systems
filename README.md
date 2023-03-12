@@ -1,19 +1,20 @@
 # slush.systems
 
 TODO -
+- where the hell are the extra spaces around the tags coming from?
 - deployment
   - github actions deployment
     - eventually would like PRs to deploy to a dev version of the site (maybe on
       a subdomain?)
     - and merges to main should deploy main
-  - slush.systems domain (w/ www)
-  - multi-region on fly.io
 
 - categories
   - setup category pages
   - category nav w/ breadcrumbs instead of the 'about' & 'showcase' links
 
 TODONE -
+- slush.systems domain (w/ www)
+- multi-region on fly.io
 - about page
 - extract 'post meta' into a partial to render it on the front page / category
   pages
