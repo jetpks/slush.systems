@@ -1,6 +1,5 @@
 {{ define "main" }}
   {{ if gt (len .Content) (0) }}
-    {{ partial "post_meta.html" . }}
     <h1 class="post-title">
       <a href="{{ .Permalink }}">#</a> {{ .Title | markdownify }}
     </h1>

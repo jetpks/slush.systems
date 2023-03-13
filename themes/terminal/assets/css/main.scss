@@ -33,11 +33,11 @@ h1, h2, h3, h4, h5, h6 {
   color: $accent;
   font-weight: bold;
   font-style: italic;
-  margin: 40px 0 20px 0;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.7rem;
+  margin: 40px 0 20px 0;
 }
 
 h2 {
@@ -318,6 +318,12 @@ mark {
   @media print {
     display: initial;
   }
+}
+
+.index-content {
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 hr {
