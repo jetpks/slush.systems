@@ -3,7 +3,7 @@ title: "Multi-region presence with anycast"
 date: "2023-03-11T22:34:02-07:00"
 author: ""
 cover: ""
-tags: [anycast, multi-region, http]
+tags: [anycast, multi-region, http, fly.io, hosting]
 keywords: []
 description: >-
   This blog is coming to you live from servers in California, Virginia, and
