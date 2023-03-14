@@ -9,10 +9,10 @@ enableGitInfo = true
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  #contentTypeName = "content/posts"
+  #contentTypeName = 'content/posts'
 
   # aqua blue cyan green lilac orange pink purple red yellow
-  themeColor = "green"
+  themeColor = 'purple'
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
@@ -36,10 +36,10 @@ enableGitInfo = true
   showLastUpdated = false
 
   # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+  # favicon = 'favicon.ico'
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+  # updatedDatePrefix = 'Updated'
 
   # set all headings to their default size (depending on browser settings)
   # (default: true)
@@ -54,45 +54,45 @@ enableGitInfo = true
 
   # set title for the table of contents (default: Table of Contents)
   # can be overridden in a page's front-matter
-  TocTitle = "table of contents"
+  TocTitle = 'table of contents'
 
   # The GitInfo.Hash is appended to create a link to the commit on github
-  githubCommitUrlPrefix = "https://github.com/jetpks/slush.systems/commit/"
+  githubCommitUrlPrefix = 'https://github.com/jetpks/slush.systems/commit/'
 
   # author; we get this from gitinfo, so a blank string is fine here
-  author = ""
+  author = ''
 
 [languages]
   [languages.en]
-    languageName = "English"
-    title = "slush.systems"
-    subtitle = "Misadventures in technology"
-    owner = "Eric Jacobs"
-    keywords = ""
-    copyright = "2023"
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
-    minuteReadingTime = "min read"
-    words = "words"
+    languageName = 'English'
+    title = 'slush.systems'
+    subtitle = 'Misadventures in technology'
+    owner = 'Eric Jacobs'
+    keywords = ''
+    copyright = '2023'
+    menuMore = 'Show more'
+    readMore = 'Read more'
+    readOtherPosts = 'Read other posts'
+    newerPosts = 'Newer posts'
+    olderPosts = 'Older posts'
+    missingContentMessage = 'Page not found...'
+    missingBackButtonLabel = 'Back to home page'
+    minuteReadingTime = 'min read'
+    words = 'words'
 
     [languages.en.params.logo]
-      logoText = "slush.systems"
-      logoHomeLink = "/"
+      logoText = 'slush.systems'
+      logoHomeLink = '/'
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "/about"
-        url = "/about"
+        identifier = 'about'
+        name = '/about'
+        url = '/about'
       # [[languages.en.menu.main]]
-      #   identifier = "showcase"
-      #   name = "Showcase"
-      #   url = "/showcase"
+      #   identifier = 'showcase'
+      #   name = 'Showcase'
+      #   url = '/showcase'
 
 [markup]
   [markup.highlight]
