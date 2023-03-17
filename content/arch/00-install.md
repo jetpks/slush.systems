@@ -1,17 +1,15 @@
-+++
-date = "2023-03-03T08:41:20-07:00"
-author = "Eric Jacobs"
-cover = ""
-tags = ["arch", "install", "thinkpad"]
-keywords = []
-description = "Initial arch linux install steps on my Thinkpad X1-Yoga"
-showFullContent = false
-readingTime = false
-hideComments = false
-color = "" #color from the theme settings
-title = "Install"
-draft = true
-+++
+---
+date: 2023-03-03T08:41:20-07:00
+cover: ""
+tags: [arch, install, thinkpad]
+keywords: []
+description: >-
+  Initial arch linux install steps on my Thinkpad X1-Yoga
+showFullContent: false
+hideComments: false
+title: Install
+draft: true
+---
 
 Welcome welcome welcome. Today we're installing Arch Linux on a 14" Thinkpad X1
 Yoga 5th Gen.
