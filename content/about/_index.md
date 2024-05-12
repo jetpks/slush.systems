@@ -25,5 +25,5 @@ The theme is a heavily modified version of [panr's](https://github.com/panr/)
 [hugo-terminal-theme](https://github.com/panr/hugo-theme-terminal). The color
 scheme is [tomorrow-night](https://github.com/chriskempson/tomorrow-theme). The font is [Cartograph](https://connary.com/cartograph.html) by [Connary
 Fagen](https://connary.com/index.html). I love this font. Please purchase a
-license from Connary Fagen if you wish to use it.
+license from Connary Fagen if you're gonna use it.
 
