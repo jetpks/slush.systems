@@ -12,13 +12,12 @@ description: >-
 
 ---
 
-```c++
-undercover_bizdev_guy joined #sre_support_group
-undercover_bizdev_guy: Hi devops brethren. How many of you use Splunk and are
-not happy with it? I would love to understand your workflow and day to day
+**undercover_bizdev_guy** joined *#sre_support_group*
+
+**undercover_bizdev_guy:** Hi devops brethren. How many of you use Splunk and
+are not happy with it? I would love to understand your workflow and day to day
 tools you use to solve incidents quickly (under strict MTTR) I have a thesis
 that AI can help here.
-```
 
 **eric:** _@undercover_bizdev_guy_ i can't tell if you're new to the internet or
 what your deal is, but i'll bite. splunk is fine. sumo is fine. a bunch of
