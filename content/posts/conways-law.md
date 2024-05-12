@@ -4,7 +4,7 @@ date: "2024-05-11T20:46:13-06:00"
 tags: [sre, business, devops, conway's law, slack, reliability, incentives]
 keywords: []
 cover: ""
-draft: true
+draft: false
 description: >-
   this incident didn't have to happen. this system could be actually reliable if
   the business wanted it to be. *but the business doesn't want that*.
