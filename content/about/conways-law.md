@@ -6,10 +6,9 @@ keywords: []
 cover: ""
 draft: false
 description: >-
-  it's always in the back of
-  your mind, nagging at you, "this incident didn't have to happen. this system
-  could be actually reliable if the business wanted it to be. ***but the business
-  doesn't want that***."
+  you actually kind of like that even though you know it's bad for your health
+  because fixing things by shoving untested changes straight into production is
+  ***exhilarating***. you ***like*** doing cowboy shit.
 
 ---
 
