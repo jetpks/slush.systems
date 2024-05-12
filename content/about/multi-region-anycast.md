@@ -133,14 +133,4 @@ free on [Fly.io](https://fly.io/).
 
 ## What about the database?
 
-This site is just a pile of HTML & CSS files and doesn't have a database, so no
-worries for me.
-
-In general though, deploying a multi-region application gets more complicated
-when there's a database involved. Luckily, [Fly has a managed postgres
-product](https://fly.io/blog/globally-distributed-postgres/) to help with this.
-
-Even with globally managed postgres, there's still some engineering effort
-involved to make everything function. If you have geographically distributed
-users (even if it's just across the US,) the investment is usually worth it.
-
+Yea your writes are going to be as slow as your whole site is right now.
